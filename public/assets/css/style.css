@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    width: 100%;
+    margin-bottom: 35px;
+    background-color: #405D89;
+    color: white;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+nav ul li {
+    width:480px;
+    text-align: center;
+    border-right: 1px solid white;
+}
+
+.michael:hover {
+    background-color: #051937
+}
+
+.forma:hover {
+    background-color: #051937;
+}
+
+.lang:hover {
+    background-color: #051937;
+}
+
+.présentation {
+    width: 900px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    background-color: #405D89;
+    color: white;
+    border-radius: 50px;
+}
+.imgPre{
+    height: 200px;
+}
+
+.présentationText {
+    margin: 10px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.présentation img {
+    width: 200px;
+}
+
+.présentation h1 {
+    margin-bottom: 10px;
+}
+
+
+.présentation p {
+    line-height: 25px;
+}
+
+.player{
+    width: 903px;
+    height: 318px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainFormationStage {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.title{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+
+.forSta{
+    width: 266px;
+    font-family: 'Maven Pro', sans-serif;
+    border-bottom: #405D89 1px solid;
+}
+
+.formation {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stage {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formation h2 {
+    margin-bottom: 15px;
+}
+
+.language {
+    width: 900px;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.langUtil{
+    width: 202px;
+    font-family: 'Maven Pro', sans-serif;
+    border-bottom: #405D89 1px solid;
+}
+
+.affirmation {
+    display: flex;
+    justify-content: space-around;
+}
+
+.html {
+    position: relative;
+    width: 200px;
+}
+
+.html:hover .htmlText {
+    opacity: 1;
+}
+
+.htmlText {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #405D89;
+}
+
+
+.htmlImg {
+    width: 200px;
+    height: 120px;
+    display: block;
+}
+
+
+.css {
+    position: relative;
+    width: 200px;
+}
+
+.cssImg {
+    width: 200px;
+    height: 120px;
+    display: block;
+}
+
+
+.cssText {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #405D89;
+}
+
+.css:hover .cssText {
+    opacity: 1;
+}
+
+.js{
+    position: relative;
+    width: 200px;
+}
+
+.jsImg{
+    width: 200px;
+    height: 120px;
+    display: block;
+}
+
+.jsText{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #405D89;
+}
+
+.js:hover .jsText{
+    opacity: 1;
+}
+
+.overlay {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 30px;
+}
+
+
+.language h2 {
+    margin-bottom: 35px;
+}
+
+.langUti {
+    width: 150px;
+    margin-bottom: 20px;
+
+}
+
+.cont{
+    width: 105px;
+    font-family: 'Maven Pro', sans-serif;
+    border-bottom: #405D89 1px solid;
+}
+
+.formulaire {
+    position: relative;
+    width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+
+.formOne {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formTwo {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formTree {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+
+span {
+    height: 25px;
+    width: 30px;
+    padding: 10px;
+}
+
+label {
+    margin: 10px;
+}
+
+input {
+    width: 300px;
+    height: 25px;
+    padding: 10px;
+    border: 1px #405D89 solid;
+    opacity: 0.5;
+}
+
+textarea {
+    width: 750px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: 1px #405D89 solid;
+    opacity: 0.5;
+}
+
+.btnForm {
+    width: 150px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    background-color: #405D89;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.btnForm:hover {
+    background-color: #051937;
+}
+
+
+.coordonée{
+    width: 465px;
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Maven Pro', sans-serif;
+    line-height: 35px;
+}
+
+footer {
+    background-color: #405D89;
+    color: white;
+}
